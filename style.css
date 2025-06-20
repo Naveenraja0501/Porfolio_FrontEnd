@@ -34,3 +34,27 @@ ul {
   list-style-type: square;
   margin-left: 20px;
 }
+.navbar {
+  background-color: #2e8b57;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.navbar ul li a:hover {
+  background-color: #1e6b43;
+}
